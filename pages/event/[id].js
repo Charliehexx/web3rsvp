@@ -102,7 +102,7 @@ function Event({ event }) {
         </h1>
         <div className="flex flex-wrap-reverse lg:flex-nowrap">
           <div className="w-full pr-0 lg:pr-24 xl:pr-32">
-            <div className="mb-8 w-full aspect-w-10 aspect-h-7 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500 overflow-hidden">
+            <div className="mb-8 w-full aspect-w-10 aspect-h-7 rounded-lg bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500 overflow-hidden">
               {event.imageURL && (
                 <Image src={event.imageURL} alt="event image" layout="fill" />
               )}
